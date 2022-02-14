@@ -32,9 +32,13 @@ namespace HashTable
             hash.Add("17", "avoidable");
             hash.Add("18", "situations");
 
-            string str = hash.GetElement("5");
-            Console.WriteLine("12th index value: " + str);
-            Console.ReadKey();
+            hash.Remove("17");
+            Console.WriteLine("avoidable is delete.!!");
+
+            string str = hash.GetElement("17");
+            Console.WriteLine("17th index value: " + str);
+
+          
                        
         }
     }
